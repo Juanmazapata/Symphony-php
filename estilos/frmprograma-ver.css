@@ -1,0 +1,272 @@
+
+form{
+
+	background-color:#BFBFBF;
+	padding:1%;
+	font-family:Philosopher-Italic;
+	width:98%;
+	height:20%;
+	margin: auto;
+
+}
+
+form, input, button{
+	font-family:Philosopher-Italic;
+}
+
+h1{
+	background:#5C6B8C;
+	color:#F3F1F2;
+	font-size:1.5em;
+	margin-left:5px;
+	margin-bottom:10px;
+	padding:5px;
+
+
+	}
+
+	fieldset{
+background:#F3F1F2;
+
+border: outset;
+padding: -2%;
+height: 500px;
+	}
+
+.programa-ver{
+
+	height: 450px;
+}
+
+
+#dvlogoprograma{
+  background:#0A0A0C;
+  padding:1px;
+	margin-top:10px;
+	margin-left:5%;
+width:200px;
+height: 200px;
+  position: relative;
+float: left;
+
+}
+
+#dvlogoprograma img{
+  width:100%;
+  height: 100%;
+  background:#F3F1F2;
+  border:1px solid #0A0A0C;
+  padding: 3px;
+  position: absolute;
+  top:-10px;
+	left:-10px;
+}
+
+.contenido{
+	margin:5px;
+
+		}
+
+		.contenido .tit-programa-ver{
+			line-height: 27px;
+	width: 200px;
+	margin-left: 10%;
+	margin-top: -1%;
+	float: left;
+
+			}
+
+.contenido .tit-programa-ver li{
+
+text-align: right;
+	margin:5px;
+	list-style:none;
+
+	}
+
+	.contenido .def-programa-ver{
+		font-size: 1.5em;
+		line-height: 27px;
+			margin-top: -1%;
+			margin-left: 1%;
+width: 520px;
+float: left;
+
+
+		}
+
+.contenido .def-programa-ver li{
+
+text-align: left;
+margin:5px;
+list-style:none;
+
+}
+
+.contenido .tit2-programa-ver{
+
+width: 200px;
+margin-top: 0;
+margin-left: 5%;
+float: left;
+	}
+
+.contenido .tit2-programa-ver li{
+
+
+margin:5px;
+list-style:none;
+
+}
+
+.contenido .def2-programa-ver{
+
+	font-size: 0.9em;
+	margin-top: 0;
+		margin-left: 0.5%;
+width: 810px;
+height:50px;
+float: left;
+
+	}
+
+.contenido .def2-programa-ver li{
+
+text-align: justify;
+margin:5px;
+list-style:none;
+
+}
+
+.contenido .tit3-programa-ver{
+	line-height: 27px;
+width: 200px;
+margin-top: 0.5%;
+margin-left: 4.3%;
+float: left;
+
+	}
+
+.contenido .tit3-programa-ver li{
+
+text-align: right;
+margin:5px;
+list-style:none;
+
+}
+
+.contenido .def3-programa-ver{
+font-size: 0.6EM;
+font-family:Philosopher-Bold;
+margin-top: 1%;
+margin-left: 1.2%;
+width: 46%;
+float: left;
+
+	}
+
+.contenido .def3-programa-ver li{
+
+text-align: justify;
+margin:5px;
+list-style:none;
+line-height: 6px;
+}
+
+.contenido .tit4-programa-ver{
+	font-size: 0.6EM;
+width: 22%;
+margin-top: 1%;
+margin-left: 7%;
+float: left;
+font-family:Philosopher-Bold;
+
+	}
+
+.contenido .tit4-programa-ver li{
+text-align: left;
+margin:5px;
+list-style:none;
+
+
+}
+
+#fsleyenda h2{
+	background:#5C6B8C;
+	color:#F3F1F2;
+	font-size:1.5em;
+	margin-left:5px;
+	margin-bottom:10px;
+	padding:5px;
+	}
+
+	.dvbtnactualizar, .dvbtnguardar, .dvbtnimprimir-verprograma{
+		margin-top: 0.5%;
+		margin-left: 45%;
+		text-align:center;
+width: 15%;
+
+		}
+
+.btnimprimir-verprograma, .btnvolver-verprograma, #btnlimpiar, #btnenviar, #btncerrar, #btncerraract{
+
+		padding:3px 10px;
+		font-size:0.9em;
+		background-color:#2B313F;
+		color:#F3F1F2;
+		-webkit-transition: background-color .25s;
+		border:0px;
+						-webkit-border-radius:5px;
+		-webkit-box-shadow: 0px 1px 0px #0A0A0C;
+		-moz-border-radius:5px;
+		margin-top: 0;
+
+
+
+		}
+
+.btnimprimir-verprograma:hover, .btnvolver-verprograma:hover, #btnlimpiar:hover, #btnenviar:hover, #btncerrar:hover, #btncerraract:hover{
+
+			background-color: #5C6B8C;
+			color:#F3F1F2;
+			cursor:pointer;
+			-webkit-box-shadow: 0px 1px 0px #F3F1F2;
+			}
+
+#btnimprimir-verperfil{
+    padding:3px 10px;
+    font-size:1em;
+    background-color:#2B313F;
+    color:#F3F1F2;
+    -webkit-transition: background-color .25s;
+    border:0px;
+    -webkit-border-radius:5px;
+					-webkit-box-shadow: 0px 1px 0px #0A0A0C;
+					-moz-border-radius:5px;
+					margin-left: -139%;
+					margin-top: 16%;
+
+
+
+					}
+
+					#btnimprimir-verperfil:hover{
+
+								background-color: #5C6B8C;
+								color:#F3F1F2;
+								cursor:pointer;
+								-webkit-box-shadow: 0px 1px 0px #F3F1F2;
+								}
+
+
+
+
+
+
+
+
+p{
+	text-align:right;
+
+
+	}

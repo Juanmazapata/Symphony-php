@@ -1,0 +1,401 @@
+/* estilo index*/
+
+body{
+	background:#5C6B8C;
+	font-family:Philosopher-Italic;
+
+	}
+
+
+
+#contenedor{
+	margin:0 auto;
+	background-color:#F3F1F2;
+	width:760px;
+	padding-bottom:80px;
+	padding-top:10px;
+	margin-top:10px;
+    position:relative;
+	}
+
+.banner{
+	margin:0 auto;
+	margin-top:10px;
+	background-color:#BFBFBF;
+	background-position:center;
+	width:730px;
+	height:243px;
+	position:relative;
+	top:3px;
+	left:5px;
+	margin-bottom:5px;
+
+	}
+
+#contenedor .banner img{
+	background-color:#F3F1F2;
+	margin-top:10px;
+	width:720px;
+	height:230px;
+	border:1px solid #000000;
+	padding:5px;
+	position:relative;
+	top:-12px;
+	left:-5px;
+	}
+#logcorporativo{
+	background-color:#2B313F;
+float:left;
+	}
+
+#logcorporativo img{
+	background-color:#F3F1F2;
+margin:0 auto;
+	border:1px solid #000;
+	padding:2px;
+	width:90px;
+	height:90px;
+	position:relative;
+	top:-2px;
+	left:-3px;
+
+	}
+
+
+#formlogin{
+	margin:0 auto;
+	background-color:#BFBFBF;
+padding: 10px 10px 20px 10px;
+border:2px solid #000;
+width:270px;
+position:relative;
+	}
+
+#formlogin h1{
+	background-color:#2B313F;
+	color:#F3F1F2;
+	text-align:center;
+	margin-top:0;
+	margin-bottom:10px;
+	}
+
+#formlogin label, input{
+	margin-bottom:10px;
+	margin-left:5px;
+
+
+	}
+
+#txtnrodocumento, #txtcontrasenia{
+	width:62%;
+
+	}
+
+#formlogin a{
+	color:#2B313F;
+	position:absolute;
+	bottom:5px;
+	right:16px;
+	}
+
+#formlogin a:hover{
+	color:#5C6B8C;
+	}
+
+#formlogin a:active{
+	color:#F3F1F2;
+	}
+
+#btningresar, #btnlimpiar, #btnenviar{
+		padding:3px 10px;
+		font-size:1em;
+		background-color:#2B313F;
+		color:#F3F1F2;
+		-webkit-transition: background-color .25s;
+		border:0px;
+						-webkit-border-radius:5px;
+		-webkit-box-shadow: 0px 1px 0px #0A0A0C;
+		-moz-border-radius:5px;
+		margin-top: 5px;
+
+		}
+
+#btningresar:hover, #btnlimpiar:hover, #btnenviar:hover{
+
+			background-color: #5C6B8C;
+			color:#F3F1F2;
+			cursor:pointer;
+			-webkit-box-shadow: 0px 1px 0px #F3F1F2;
+			}
+p{
+	text-align:center;
+	}
+
+.navegador {
+
+	background:url(../formas/navegador.png) no-repeat ;
+	padding:30px;
+	width:100px;
+	position:absolute;
+	left:0px;
+	bottom:10px;
+	}
+
+
+
+.industria{
+
+	width:80px;
+		padding:5;
+position:absolute;
+	right:0px;
+	bottom:0px;
+
+	}
+
+.industria img{
+	width:90px;
+	height:15px;
+
+	}
+
+/*---------------------------------------------------*/
+/*RECUPERACION DE CONTRASEÑA*/
+
+#contenedorcorreo{
+	margin:0 auto;
+	background-color:#F3F1F2;
+	width:760px;
+	padding-bottom:170px;
+	padding-top:10px;
+	margin-top:10px;
+    position:relative;
+		}
+
+#formulario{
+	margin-top:173px;
+
+	}
+
+.opcion{
+
+	background-color:#BFBFBF;
+	width:380px;
+	margin:0 auto;
+	padding:2px;
+	margin-top:3px;
+
+	}
+
+#opcionprincipal{
+	background-color:#BFBFBF;
+	width:380px;
+	margin:0 auto;
+	padding:2px;
+
+	}
+
+#opcionprincipal input{
+		width: 363px;
+	}
+
+#opcionprincipal label{
+	margin-left:5px;
+	}
+.opcion p{
+		margin:auto;
+	}
+
+.opcion img{
+	width:90px;
+	height:39px;
+	margin-left:145px;
+
+	}
+
+#contenedorcorreo #titprincipal, #contenedorcontrasenia #titprincipal {
+	background-color:#2B313F;
+	color:#F3F1F2;
+	font-size:30px;
+	width:384px;
+	margin:0 auto;
+	margin-bottom:3px;
+	text-align:center;
+
+	}
+
+.opcion h2{
+	color:#F00;
+	text-align:center;
+	font-size:1em;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:5px;
+
+	}
+/*---------------------------------------------------*/
+/*CAMBIAR CONTRASEÑA*/
+
+#contenedorcontrasenia{
+	/*margin:0 auto;*/
+	background-color:#F3F1F2;
+	width:760px;
+	padding-bottom:539px;
+	padding-top:10px;
+	margin-top:10px;
+    position:relative;
+
+	}
+
+#formulario2{
+	width:220px;
+	margin left:50px;
+	position:absolute;
+	top:85px;
+	left:190px;
+	}
+
+	.opcion-cambiar-login{
+
+		background-color:#BFBFBF;
+		width:380px;
+		margin:0 auto;
+		padding:2px;
+		margin-top:3px;
+
+		}
+	.opcion-cambiar-login p{
+			margin:auto;
+		}
+
+	.opcion-cambiar-login img{
+		width:90px;
+		height:39px;
+		margin-left:145px;
+
+		}
+
+	.opcion-cambiar-login h2{
+		color:#F00;
+		text-align:center;
+		font-size:1em;
+		text-transform:uppercase;
+		font-weight:bold;
+		padding:5px;
+}
+
+.opcion-cambiar-login #titsecundario{
+	color:#090;
+	font-size:18px;
+	width:384px;
+	margin:0 auto;
+	margin-bottom:3px;
+	text-align:center;
+	}
+
+.opcion-cambiar-login label{
+	width:100%;
+	}
+#txtingcod{
+	width:95%;
+	font-size:11.2px;
+	}
+
+.opcion-cambiar-login input{
+width:80px;
+
+}
+
+
+
+#txtingcon,
+#txtingrepcon{
+	width:95%;}
+
+#btnvolver{
+	background-color:#BFBFBF;
+	width:384px;
+	margin:0 auto;
+	padding:0;
+	margin-top:3px;
+	}
+
+#btnvolver img{
+	width:90px;
+	height:39px;
+	margin:auto;
+
+	}
+
+.respuesta{
+	color:#F00;
+	text-align:center;
+	font-size:1em;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:5px;
+	}
+
+/*---------------------------------------------------*/
+/*ERROR CONTRASEÑA*/
+
+#contenedorerror{
+	margin:0 auto;
+	background-color:#F3F1F2;
+	width:760px;
+	padding-bottom:82px;
+	padding-top:10px;
+	margin-top:10px;
+
+	}
+
+#formularioerror{
+
+		margin-top:70px;
+
+	}
+
+.opcion .erroracceso{
+		color:#F00;
+	text-align:center;
+	font-size:1.5em;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:5px;
+	margin-bottom:20px;
+	}
+
+.opcion .solucion{
+	color:#090;
+	font-size:.9em;
+	text-align:center;
+	margin-bottom:3px;
+
+
+	}
+
+.imgerror{
+
+	margin-top:18px;
+	background-color:#2B313F;
+	width:310px;
+	height:254px;
+	margin:auto;
+	position:relative;
+	}
+
+.imgerror img{
+	border:1px solid #0A0A0C;
+	background-color:#F3F1F2;
+	padding:5px;
+	width:304px;
+position:absolute;
+top:-12px;
+	left:-10px;
+	}
+
+	/*ocultar*/
+
+	#instruccion{
+		display:none;
+	}

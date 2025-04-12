@@ -1,0 +1,128 @@
+
+.formulario{
+background: #BFBFBF;
+width:37.3%;
+font-family:Philosopher-Italic;
+margin:10% 28%  auto;
+line-height: 30px;
+padding: 1%;
+position: relative;
+
+
+}
+
+.logo{
+  background:#0A0A0C;
+  padding:1px;
+	margin-top:10px;
+	margin-left:50px;
+width:90px;
+height: 90px;
+  position: relative;
+  position: absolute;
+  top:-31%;
+  left:29%;
+
+}
+
+.logo img{
+  width:100%;
+  height: 100%;
+  background:#F3F1F2;
+  border:1px solid #0A0A0C;
+  padding: 3px;
+  position: absolute;
+  top:-10px;
+	left:-10px;
+}
+
+.dvfondobtnlogo{
+	margin-top: -10px;
+  	margin-left:9px;
+	width:231.5px;
+	height:22px;
+	background:#2B313F;
+	color:#F3F1F2;
+		text-align:center;
+position: absolute;
+top:50.1%;
+left:45.5%;
+font-size: 80%;
+
+}
+.dvfondobtnlogo:hover{
+	background:#5C6B8C;
+	cursor:pointer;
+
+	}
+
+#txtnominstitucion{
+  width: 274px;
+}
+#txtnit, #txtciudadinst{
+  width: 177.5px;
+
+
+
+}
+
+#txtdireccioninst{
+  width:370.7px;
+}
+
+#txttelefonoinst, #txtcelularinst{
+  width: 159.2px;
+
+
+}
+
+#txtfax{
+  margin: 0 50% 0 0;
+}
+
+#txtcorreoinst{
+  width:388.9px;
+}
+
+#txtsitioweb{
+  width:370.4px;
+}
+
+#txtdirectorinst{
+  width:300px;
+}
+
+.formulario #backup{
+margin-left:68%;
+}
+
+.dvbtnactualizarinst{
+
+margin:0 29.3% auto;
+text-align: center;
+padding: 0.5%;
+width: 35%;
+
+}
+
+#btnactualizarinst, #btncerrar{
+		padding:3px 10px;
+		font-size:1em;
+		background-color:#2B313F;
+		color:#F3F1F2;
+		-webkit-transition: background-color .25s;
+		border:0px;
+		-webkit-border-radius:5px;
+		-webkit-box-shadow: 0px 1px 0px #0A0A0C;
+		-moz-border-radius:5px;
+        font-family:Philosopher-Italic;
+
+		}
+
+#btnactualizarinst:hover, #btncerrar:hover{
+
+			background-color: #5C6B8C;
+			color:#F3F1F2;
+			cursor:pointer;
+			-webkit-box-shadow: 0px 1px 0px #F3F1F2;
+			}

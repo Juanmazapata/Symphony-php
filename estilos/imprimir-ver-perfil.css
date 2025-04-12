@@ -1,0 +1,40 @@
+
+@media print{
+/*
+#pestaña1 #fsleyenda .contenido ul li{
+margin-top: -1px;
+line-height: 20px;
+text-align: right;
+margin-left: 33.3%;
+position: relative;
+}
+*/
+
+#pestaña1, #fsleyenda, .pestañas .pestaña{
+display:none;
+}
+
+button{
+
+  visibility:hidden;
+
+}
+
+#fsleyenda{
+  display: block;
+}
+
+#pestaña1 #fsleyenda .contenido ul li{
+margin-top: -1px;
+line-height: 20px;
+text-align: right;
+margin-left: 33.3%;
+position: relative;
+}
+
+.pestañas #pestaña2{
+
+}
+
+
+}

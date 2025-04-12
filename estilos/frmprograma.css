@@ -1,0 +1,248 @@
+form{
+	background-color:#BFBFBF;
+	padding:1%;
+ font-family:Philosopher-Italic;
+	width:98%;
+	margin: auto;
+}
+
+form, input, textarea, button{
+font-family:Philosopher-Italic;
+	}
+
+h1 {
+	background:#5C6B8C;
+	color:#F3F1F2;
+	font-size:1.5em;
+	margin-left:5px;
+	margin-bottom:2px;
+	padding:5px;
+	}
+
+
+.contenido{
+	margin:0;
+	}
+
+.contenido #linea1{
+	margin:5px;
+	float:left;
+	list-style:none;
+
+width: 82vw;
+
+}
+
+.contenido #linea1 input{
+	margin-right: 1%;
+}
+
+
+#txtnomprograma, #txtdiarealizacion{
+	width:33.9%;
+
+	}
+
+.contenido #linea2{
+	margin:5px;
+	float:left;
+	list-style:none;
+	width: 82vw;
+
+}
+
+.contenido #linea2 input, select{
+	margin-right: 1%;
+}
+
+#slrepertorio{
+ width:19.3%;
+
+ }
+
+#slhorainicio, #slhorafinalizacion{
+		width:8%;
+
+}
+
+.dvfondobtnlogotipo{
+
+	width:20%;
+	height:30px;
+	background:#2B313F;
+	color:#F3F1F2;
+margin-left: 78.5%;
+margin-top: -1.9%;
+text-align: center;
+
+font-size: 80%;
+
+}
+.dvfondobtnlogotipo:hover{
+	background:#5C6B8C;
+	cursor:pointer;
+
+	}
+
+#dvfondobtnlogotipo #lbanexologotipo, #nomarchivologotipo{
+
+margin-top: 100%;
+}
+
+.contenido #linea3{
+	margin:5px;
+	float:left;
+	list-style:none;
+width: 82vw;
+
+}
+
+.contenido #linea3 input, select{
+	margin-right: 1%;
+}
+
+.contenido #linea4{
+	margin:5px;
+	float:left;
+	list-style:none;
+width: 82vw;
+
+}
+
+.contenido #linea4 textarea, input, select{
+	margin-right: 1%;
+}
+
+#txtdescprograma{
+	width:80.5vw;
+	resize:vertical;
+	max-height:35px;
+	min-height:10px;
+
+	}
+
+
+
+fieldset{
+
+	background:#F3F1F2;
+	border: outset;
+	margin:0.5% auto;
+	padding:5px;
+
+		}
+
+#fsleyenda2{
+	padding:5px;
+
+	}
+
+#fsleyenda2 h2{
+	background:#5C6B8C;
+	color:#F3F1F2;
+	font-size:1.5em;
+	margin-left:5px;
+	margin-bottom:10px;
+	padding:5px;
+
+	}
+
+.director {
+float:left;
+width:100%;
+padding-bottom:10px;
+position:relative;
+	}
+.director li{
+list-style:none;
+	}
+
+.director #sldirector{
+width:270px;
+position:absolute;
+top:0;
+left:90px;
+
+	}
+
+.monitor{
+float:left;
+width:100%;
+padding-bottom:10px;
+position:relative;
+}
+
+.monitor li{
+	list-style:none;
+	margin-top:10px;
+	}
+
+form .monitor select{
+	width:270px;
+
+	}
+
+.monitor input{
+	width:270px;
+	}
+
+.dvbtnguardar{
+	text-align:center;
+	position:relative;
+
+	}
+
+	.dvbtnactualizar{
+		text-align:center;
+		position:relative;
+
+		}
+
+#btnguardar, #btnlimpiar, #btnenviar, #btnactualizar, #btnvolver{
+		padding:3px 10px;
+		font-size:1em;
+		background-color:#2B313F;
+		color:#F3F1F2;
+		-webkit-transition: background-color .25s;
+		border:0px;
+						-webkit-border-radius:5px;
+		-webkit-box-shadow: 0px 1px 0px #0A0A0C;
+		-moz-border-radius:5px;
+		margin-top: 5px;
+
+		}
+
+#btnguardar:hover, #btnlimpiar:hover, #btnenviar:hover, #btnactualizar:hover, #btnvolver:hover{
+
+			background-color: #5C6B8C;
+			color:#F3F1F2;
+			cursor:pointer;
+			-webkit-box-shadow: 0px 1px 0px #F3F1F2;
+			}
+
+#parrafo{
+	text-align:right;
+	}
+
+	/*Modifica formulario de programa editar*/
+
+	#cargar-formulario-programa form{
+	height: 485px;
+
+	}
+
+	#cargar-formulario-programa fieldset{
+	height: 190px;
+
+	}
+
+	#cargar-formulario-programa #fsleyenda2{
+	height: 230px;
+
+	}
+
+/*OCULTAR*/
+
+#txtcodprograma{
+	display:none;
+}

@@ -1,0 +1,309 @@
+
+form{
+	background-color:#BFBFBF;
+	padding:0;
+	font-family:Philosopher-Italic;
+	width:100%;
+	margin:auto;
+
+}
+
+form, input, button{
+	font-family:Philosopher-Italic;
+}
+
+ul.pestaña{
+padding-top:10px;
+	background:#F3F1F2  ;
+	display:flex;
+margin:auto;
+	width:100%;
+
+	}
+
+ul.pestaña li{
+	list-style:none;
+		width:100vw;
+		margin-left:0px;
+	margin-top:-10px;
+
+	}
+ul.pestaña li a{
+	color:#0A0A0C;;
+	text-decoration:none;
+	font-size:18px;
+	text-align:center;
+	display:block;
+	padding:5px 0px;
+	}
+
+.active{
+background:#BFBFBF;
+
+
+	}
+
+h1{
+	background:#5C6B8C;
+	color:#F3F1F2;
+	font-size:1.5em;
+	margin-left:5px;
+	margin-bottom:1px;
+	padding:5px;
+	}
+
+.contenido{
+	margin:0;
+
+		}
+
+		.contenido ul{
+			line-height: 27px;
+
+			}
+
+.contenido li{
+	margin:5px;
+	float:left;
+	list-style:none;
+
+	}
+
+#linea1{
+	width: 95%;
+
+}
+
+#linea2{
+	width: 95%;
+	margin-top: 0;
+
+}
+
+#linea3{
+	width: 95%;
+	margin-top: 0;
+
+}
+
+#linea4{
+	width: 95%;
+	margin-top: 0;
+
+}
+
+#linea5{
+	width: 95%;
+	margin-top: 0;
+
+}
+
+#linea6{
+	width: 95%;
+	margin-top: 0;
+
+}
+
+#linea7{
+	width: 95%;
+	margin-top: 0;
+
+}
+
+#linea8{
+	width: 95%;
+	margin-top: 0;
+
+}
+
+#txtnomempleado, #txtapellempleado{
+		width:26.8%;
+		}
+
+#txtnrodocumento, #txteps, #txtarl{
+  width:13%;
+}
+
+
+#txtedad{
+	width:40px;
+	}
+
+#txtcodempleado{
+	width:80px;
+	}
+
+
+#txtpais, #txtdepartamento, #txtciudad {
+	width:160px;
+
+	}
+
+#txttelfijo, #txtcelular {
+    width:120px;
+}
+
+#txtemail{
+	width:220px;
+	}
+
+	#txtcrearemail{
+		width:270px;
+		}
+
+
+#txtbarrver{
+	width:250px;
+	}
+
+#txttitulo{
+	width:413px;
+	}
+
+#txtinstuniversidad{
+	width:400px;
+	}
+
+#txtcargo{
+	width:265px;
+
+	}
+
+#txtactemail{
+width:325px;
+
+}
+
+#slañoinicio, #slañoretiro{
+    width: 60px;
+}
+
+fieldset{
+	background:#F3F1F2;
+	margin:0.5% auto;
+	width:98%;
+border: outset;
+
+	}
+
+#fsleyenda{
+	padding:0px;
+
+
+	}
+
+#fsleyenda h2{
+	background:#5C6B8C;
+	color:#F3F1F2;
+	font-size:1.5em;
+	margin-left:5px;
+	margin-bottom:1px;
+	padding:5px;
+	}
+
+	.dvbtnactualizar, .dvbtnguardar{
+		text-align:center;
+
+
+
+		}
+
+#btnactualizar, #btnguardar, #btnlimpiar, #btnenviar, #btncerrar, #btncerraract{
+		padding:3px 10px;
+		font-size:1em;
+		background-color:#2B313F;
+		color:#F3F1F2;
+		-webkit-transition: background-color .25s;
+		border:0px;
+						-webkit-border-radius:5px;
+		-webkit-box-shadow: 0px 1px 0px #0A0A0C;
+		-moz-border-radius:5px;
+		margin-top: 5px;
+
+		}
+
+#btnactualizar:hover, #btnguardar:hover, #btnlimpiar:hover, #btnenviar:hover, #btncerrar:hover, #btncerraract:hover{
+
+			background-color: #5C6B8C;
+			color:#F3F1F2;
+			cursor:pointer;
+			-webkit-box-shadow: 0px 1px 0px #F3F1F2;
+			}
+
+
+p{
+	text-align:right;
+
+	}
+
+#backup{
+	text-align:left;
+}
+
+
+#fsleyenda .contenido .anexos{
+	margin-top:-10px;
+ width:100%;
+ height:180px;
+ padding-bottom:20px;
+
+ /*centrado*/
+	display:flex;
+ flex-direction:row;
+ flex-wrap:wrap;
+justify-content:center;
+ align-items:center;
+
+	}
+
+
+.dvfondobtn{
+	margin-top: 10px;
+	width:250px;
+	height:37px;
+	background:#2B313F;
+	color:#F3F1F2;
+	padding:2px;
+	position:relative;
+	text-align:center;
+	margin-left:10px;
+    float:left;
+}
+
+.input-label{
+	color:#F3F1F2 ;
+	font-size:20px;
+	transition:0.3s;
+	}
+
+.dvfondobtn:hover{
+	background:#5C6B8C;
+	cursor:pointer;
+
+	}
+
+.anexo .fa{
+	margin-right:10px;
+	}
+
+.flanexo{
+	display:none;
+	}
+
+.nomarchivo{
+		font-size:12px;
+
+
+}
+
+/*formulario bloquear*/
+
+#slmonitor{
+	width: 300px;
+}
+
+#fmperfil{
+    height: 120px;
+    margin-top: 5px;
+  padding-top: 5px;
+}

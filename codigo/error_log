@@ -1,0 +1,12 @@
+[23-Aug-2019 09:59:11 UTC] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/adminluis/public_html/sistema.cormusicaconcordia.org/sistema_cormusicaconcordi_/codigo/respaldo_BD.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/adminluis/public_html/sistema.cormusicaconcordia.org/sistema_cormusicaconcordi_/codigo/respaldo_BD.php on line 28
+[23-Aug-2019 10:02:33 UTC] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/adminluis/public_html/sistema.cormusicaconcordia.org/sistema_cormusicaconcordi_/codigo/respaldo_BD.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/adminluis/public_html/sistema.cormusicaconcordia.org/sistema_cormusicaconcordi_/codigo/respaldo_BD.php on line 28
+[23-Aug-2019 10:04:07 UTC] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/adminluis/public_html/sistema.cormusicaconcordia.org/sistema_cormusicaconcordi_/codigo/respaldo_BD.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/adminluis/public_html/sistema.cormusicaconcordia.org/sistema_cormusicaconcordi_/codigo/respaldo_BD.php on line 28

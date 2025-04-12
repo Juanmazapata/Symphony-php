@@ -1,0 +1,303 @@
+
+form{
+  background-color:#BFBFBF;
+  padding:1%;
+  font-family:Philosopher-Italic;
+  width:98%;
+  margin: auto;
+}
+
+fieldset{
+  background:#F3F1F2;
+	border: outset;
+	margin: 0.5% auto;
+	padding:5px;
+position: relative;
+
+
+}
+
+h1 {
+	background:#5C6B8C;
+	color:#F3F1F2;
+	font-size:1.5em;
+	margin-left:5px;
+	margin-bottom:2px;
+	padding:5px;
+
+	}
+
+
+
+ul li{
+  list-style: none;
+}
+
+fieldset #consulta-matricula {
+  text-align: center;
+
+}
+
+#txtconsultar-matricula{
+  width:35%;
+  padding: 0.5%;
+}
+
+#btnconsulta-matricula{
+		padding:3px 10px;
+		font-size:1em;
+		background-color:#2B313F;
+		color:#F3F1F2;
+		-webkit-transition: background-color .25s;
+		border:0px;
+						-webkit-border-radius:5px;
+		-webkit-box-shadow: 0px 1px 0px #0A0A0C;
+		-moz-border-radius:5px;
+		margin-top: 5px;
+
+		}
+
+    #btnconsulta-matricula:hover{
+
+    			background-color: #5C6B8C;
+    			color:#F3F1F2;
+    			cursor:pointer;
+    			-webkit-box-shadow: 0px 1px 0px #F3F1F2;
+    			}
+
+          #contenido-resultado{
+
+          margin-top: 0.5%;
+              overflow-y: scroll;
+                    height: 425px;
+
+                    }
+
+                    #contenido-resultado::-webkit-scrollbar{
+                      width: 5px;
+                      border-radius: 20px;
+
+                    }
+
+          #contenido-resultado::-webkit-scrollbar-thumb{
+            background: #5C6B8C ;
+            border-radius: 20px;
+              width: 5px;
+          }
+
+
+#matriculas{
+margin-top: 0.5%;
+margin-right: 1%;
+padding: 0.5%;
+width:30%;
+height: 140px;
+
+  border: #5C6B8C  solid;
+  background-color:#2B313F;
+  color:#F3F1F2;
+float:left;
+text-align: left;
+}
+
+
+#matriculas .informacion{
+
+width:70%;
+
+}
+
+#matriculas .informacion li{
+
+margin: auto;
+}
+
+h2{
+  text-align: left;
+  font-weight: bold;
+    font-size: 0.8em;
+    margin-top: 3px;
+}
+
+
+h3{
+
+    margin-top: 2px;
+}
+
+h3{
+
+    margin-top: 2px;
+}
+
+h6{
+
+    margin-top: -1px;
+}
+
+#matriculas .informacion #tit{
+  width: 34%;
+  float: left;
+
+}
+
+#matriculas .informacion #def {
+  width:150px;
+  float: left;
+  margin-left:2px;
+
+}
+
+#matriculas .foto-matricula {
+
+  	background:#0A0A0C;
+  	padding:1px;
+  	margin-top:10px;
+  	margin-left:266px;
+    width:70px;
+  	height:90px;
+  	position:relative;
+
+}
+
+#matriculas .foto-matricula img {
+
+  background:#F3F1F2;
+  width:70px;
+  height:90px;
+  border:1px solid #0A0A0C;
+  padding:3px;
+  position:absolute;
+  top:-8px;
+  left:-8px;
+
+}
+
+.control-matricula{
+  float: left;
+  width: 75px;
+  cursor: pointer;
+  font-size: 12px;
+margin-left: 20px;
+
+
+}
+
+#resultado{
+position: absolute;
+left:15px;
+top: 488px;
+}
+
+/*       DISEÑO DE DATOS CONSULTADOS              */
+
+#respuesta-consulta{
+
+margin-top: 0.5%;
+    overflow-y: scroll;
+height: 426px;
+
+          }
+
+          #respuesta-consulta::-webkit-scrollbar{
+            width: 5px;
+            border-radius: 20px;
+
+          }
+
+#respuesta-consulta::-webkit-scrollbar-thumb{
+  background: #5C6B8C ;
+  border-radius: 20px;
+    width: 5px;
+}
+
+#respuesta-consulta #matriculas-consultas {
+  margin-top: 0.5%;
+  margin-right: 1%;
+  padding: 0.5%;
+  width:30%;
+  height: 140px;
+
+    border: #5C6B8C  solid;
+    background-color:#2B313F;
+    color:#F3F1F2;
+  float:left;
+  text-align: left;
+}
+
+#respuesta-consulta #matriculas-consultas .informacion{
+
+width:70%;
+
+}
+
+#respuesta-consulta #matriculas-consultas .informacion li{
+
+margin: auto;
+}
+
+#respuesta-consulta h2{
+  text-align: left;
+  font-weight: bold;
+    font-size: 0.8em;
+}
+
+#respuesta-consulta #matriculas-consultas .informacion #tit{
+  width: 34%;
+  float: left;
+
+}
+
+#respuesta-consulta #matriculas-consultas .informacion #def {
+  float: left;
+  margin-left: 1.5%;
+
+}
+
+#respuesta-consulta #matriculas-consultas .foto-matricula {
+
+  	background:#0A0A0C;
+  	padding:1px;
+  	margin-top:10px;
+  	margin-left:266px;
+    width:70px;
+  	height:90px;
+  	position:relative;
+
+}
+
+#respuesta-consulta #matriculas-consultas .foto-matricula img {
+
+  background:#F3F1F2;
+  width:70px;
+  height:90px;
+  border:1px solid #0A0A0C;
+  padding:3px;
+  position:absolute;
+  top:-8px;
+  left:-8px;
+
+}
+
+
+#respuesta-consulta .control-matricula{
+ float: left;
+  width: 75px;
+  cursor: pointer;
+  font-size: 12px;
+margin-left: 27px;
+
+
+}
+
+#resultado-consulta-matricula{
+position: absolute;
+left:15px;
+top: 488px;
+
+}
+
+#cargar-formulario-matricula{
+
+
+}

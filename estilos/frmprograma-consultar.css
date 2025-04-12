@@ -1,0 +1,333 @@
+
+form{
+  background-color:#BFBFBF;
+  padding:1%;
+  font-family:Philosopher-Italic;
+  width:98%;
+  height:540px;
+  margin: auto;
+}
+
+fieldset{
+  background:#F3F1F2;
+	border: outset;
+	margin:0.5% auto;
+  height:520px;
+	padding:5px;
+position: relative;
+}
+
+h1 {
+	background:#5C6B8C;
+	color:#F3F1F2;
+	font-size:1.5em;
+	margin-left:5px;
+	margin-bottom:2px;
+	padding:5px;
+	}
+
+
+ul li{
+  list-style: none;
+}
+
+fieldset #consulta-programa {
+  text-align: center;
+
+}
+
+#txtconsultar-programa{
+  width:35%;
+  padding: 0.5%;
+}
+
+
+#btnconsulta-programa{
+		padding:3px 10px;
+		font-size:1em;
+		background-color:#2B313F;
+		color:#F3F1F2;
+		-webkit-transition: background-color .25s;
+		border:0px;
+						-webkit-border-radius:5px;
+		-webkit-box-shadow: 0px 1px 0px #0A0A0C;
+		-moz-border-radius:5px;
+		margin-top: 5px;
+
+		}
+
+    #btnconsulta-programa:hover{
+
+    			background-color: #5C6B8C;
+    			color:#F3F1F2;
+    			cursor:pointer;
+    			-webkit-box-shadow: 0px 1px 0px #F3F1F2;
+    			}
+
+#contenido-resultado{
+
+margin-top: 0.5%;
+    overflow-y: scroll;
+          height: 425px;
+
+  width:  100.45%;
+          }
+
+          #contenido-resultado::-webkit-scrollbar{
+            width: 5px;
+            border-radius: 20px;
+
+          }
+
+#contenido-resultado::-webkit-scrollbar-thumb{
+  background: #5C6B8C ;
+  border-radius: 20px;
+    width: 5px;
+    margin-left: 100%;
+}
+
+#programas{
+  margin-left: -1%;
+
+}
+
+#programas .programa{
+
+margin-top: 0.7%;
+margin-left: 0.9%;
+
+width:31.8%;
+height: 125px;
+
+border: #5C6B8C  solid;
+  background-color:#2B313F;
+  color:#F3F1F2;
+
+    float: left;
+}
+
+#programas .programa .logo-programa {
+
+  background-color: gray;
+  width: 15%;
+  height: 55px;
+float: left;
+    margin-top: 3%;
+     margin-left: 3%;
+}
+
+
+#programas .programa .logo-programa img {
+
+  width: 100%;
+  height: 100%;
+
+}
+
+.programa .informacion #tit{
+  width: 37%;
+  float: left;
+  margin-top: 0.8%;
+  margin-left: 1%;
+  text-align: left;
+
+}
+
+#tit h2{
+
+   font-size: 0.9em;
+    margin-bottom: 2%;
+}
+
+.programa .informacion #def {
+  width: 43.5%;
+  float: left;
+  margin-left:0;
+  margin-top: 0.8%;
+
+}
+
+#def li{
+    margin-left: 0;
+
+
+}
+
+#def h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.9em;
+    margin-bottom: 2%;
+}
+
+h3, h6{
+
+  font-size: 0.76em;
+}
+
+.programa #tit-organiza{
+      margin-top: 2%;
+    margin-left:2%;
+    width: 13%;
+    text-align: left;
+    float: left;
+}
+
+.programa #def-organiza{
+   margin-top: 2.8%;
+    text-align: left;
+     width: 80%;
+    float: left;
+}
+
+#tit-organiza h5{
+
+   margin-left: -80%;
+    font-size: 0.7em;
+}
+
+#def-organiza h5{
+
+   margin-left: -4%;
+    font-size: 0.65em;
+}
+
+/*       DISEÑO DE DATOS CONSULTADOS              */
+
+#respuesta-consulta{
+
+margin-top: 0.5%;
+    overflow-y: scroll;
+          height: 425px;
+width:  100.45%;
+          }
+
+          #respuesta-consulta::-webkit-scrollbar{
+            width: 5px;
+            border-radius: 20px;
+
+          }
+
+#respuesta-consulta::-webkit-scrollbar-thumb{
+  background: #5C6B8C ;
+  border-radius: 20px;
+    width: 5px;
+    margin-left: 100%;
+}
+
+#respuesta-consulta #programas-consultas .programa-consulta{
+
+  margin-top: 0.7%;
+  margin-left: 0.9%;
+
+  width:31.8%;
+  height: 125px;
+
+  border: #5C6B8C  solid;
+    background-color:#2B313F;
+    color:#F3F1F2;
+
+      float: left;
+
+}
+
+#respuesta-consulta #programas-consultas  .programa-consulta .logo-programa {
+
+  background-color: gray;
+  width: 15%;
+  height: 55px;
+float: left;
+    margin-top: 3%;
+     margin-left: 3%;
+}
+
+
+#respuesta-consulta #programas-consultas  .programa-consulta .logo-programa img {
+
+  width: 100%;
+  height: 100%;
+
+}
+
+.programa-consulta .informacion #tit{
+  width: 37%;
+  float: left;
+  margin-top: 0.8%;
+  margin-left: 1%;
+  text-align: left;
+}
+.programa-consulta .informacion #def {
+  width: 43.5%;
+  float: left;
+  margin-left:0;
+    margin-top: 0.8%;
+
+}
+.programa-consulta #tit-organiza{
+      margin-top: 2%;
+    margin-left:2%;
+    width: 13%;
+    text-align: left;
+    float: left;
+}
+
+.programa-consulta #def-organiza{
+   margin-top: 2.8%;
+    text-align: left;
+     width: 80%;
+    float: left;
+}
+
+.control-programa{
+  float: right;
+  margin-top: 3px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 12px;
+
+}
+
+.alumnos-programa{
+  float: left;
+  margin-top: 3px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 12px;
+
+}
+
+#resultado{
+  font-family:Philosopher-Italic;
+position: absolute;
+left:15px;
+top: 510px;
+}
+
+#resultado-consulta-programa{
+
+font-family:Philosopher-Italic;
+position: absolute;
+left:15px;
+top: 510px;
+
+}
+
+#cargar-formulario-programa{
+
+}
+
+
+/*Modifica formulario de programa consultar*/
+
+#cargar-formulario-programa-editar form{
+  height: 540px;
+}
+
+#cargar-formulario-programa-editar fieldset{
+  height: 520px;
+}
+
+/*OCULTAR*/
+#respuesta-consulta{
+display: none;
+}

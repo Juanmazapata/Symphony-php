@@ -1,0 +1,82 @@
+form{
+	background-color:#BFBFBF;
+	padding:10px;
+ font-family:Philosopher-Italic;
+	width:1150px;
+	margin-left:3px;
+}
+
+form, input, textarea, button{
+font-family:Philosopher-Italic;
+	}
+
+h1 {
+	background:#5C6B8C;
+	color:#F3F1F2;
+	font-size:1.5em;
+	margin-left:5px;
+	margin-bottom:10px;
+	padding:5px;
+	}
+
+
+.contenido li{
+text-align: center;
+
+	}
+
+.contenido li{
+	list-style:none;
+	line-height: 30px;
+	}
+
+
+
+fieldset{
+	margin-left:100px;
+	background:#F3F1F2;
+	border:2px #2B313F outset;
+	margin-top:10px;
+	margin-left:3px;
+	padding:5px;
+
+		}
+
+
+
+.dvbtnguardar{
+	text-align:center;
+	position:relative;
+
+	}
+
+#txtestadistica{
+
+	width:80px;
+}
+
+#btnguardar, #btnlimpiar, #btnenviar{
+		padding:3px 10px;
+		font-size:1em;
+		background-color:#2B313F;
+		color:#F3F1F2;
+		-webkit-transition: background-color .25s;
+		border:0px;
+						-webkit-border-radius:5px;
+		-webkit-box-shadow: 0px 1px 0px #0A0A0C;
+		-moz-border-radius:5px;
+		margin-top: 5px;
+
+		}
+
+#btnguardar:hover, #btnlimpiar:hover, #btnenviar:hover{
+
+			background-color: #5C6B8C;
+			color:#F3F1F2;
+			cursor:pointer;
+			-webkit-box-shadow: 0px 1px 0px #F3F1F2;
+			}
+
+#parrafo{
+	text-align:right;
+	}

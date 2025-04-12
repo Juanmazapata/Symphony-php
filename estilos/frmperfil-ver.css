@@ -1,0 +1,2202 @@
+
+form{
+	background-color:#BFBFBF;
+	padding:0.5%;
+	font-family:Philosopher-Italic;
+	width:99%;
+	margin:0 auto;
+
+}
+
+form, input, button{
+	font-family:Philosopher-Italic;
+}
+
+ul.pestaña{
+padding:0;
+	background:#2B313F ;
+	display:flex;
+	margin-top:0.3%;
+	width:100%;
+
+	}
+
+ul.pestaña li{
+	list-style:none;
+		width:100%;
+		margin-left:0px;
+
+	}
+ul.pestaña li a{
+	color:#0A0A0C;
+	text-decoration:none;
+	font-size:18px;
+	text-align:center;
+	display:block;
+	padding:0;
+	color: #F3F1F2 ;
+
+	}
+
+ul.pestaña li a:hover	{
+background:#5C6B8C;
+}
+
+.active{
+background:#BFBFBF;
+
+
+	}
+
+h1{
+	background:#5C6B8C;
+	color:#F3F1F2;
+	font-size:1.5em;
+	margin-left:5px;
+	margin-bottom:10px;
+	padding:5px;
+
+
+
+
+	}
+
+.contenido{
+	margin:5px;
+
+		}
+
+		.contenido ul{
+			line-height: 27px;
+
+			}
+
+.contenido li{
+	margin:5px;
+	float:left;
+	list-style:none;
+
+	}
+
+#txtnomempleado, #txtapellempleado{
+		width:230px;
+		}
+
+fieldset{
+	background:#F3F1F2;
+	margin-top: 1%;
+	width:100%;
+
+
+	}
+#fsleyenda .contenido .monitor li{
+margin-top: -1px;
+	padding:2px;
+	line-height: 25px;
+text-align: right;
+margin-left: 35%;
+position: relative;
+
+
+	}
+
+#pestaña1 #fsleyenda .contenido ul li{
+margin-top: -1px;
+line-height: 20px;
+text-align: right;
+margin-left: 33.8%;
+position: relative;
+
+}
+
+#pestaña2 #fsleyenda .contenido ul li{
+margin-top: -10px;
+text-align: right;
+margin-left: 32.6%;
+position: relative;
+
+}
+
+#pestaña3 #fsleyenda .contenido ul li{
+
+margin-top: -10px;
+text-align: right;
+margin-left: 32.1%;
+position: relative;
+
+
+}
+
+#pestaña4 #fsleyenda .contenido{
+
+margin: auto;
+text-align: center;
+width: 98%;
+}
+
+
+
+	#pestaña4 #fsleyenda .contenido .anexos ul  {
+
+		margin-top:5px;
+
+	 width:100%;
+	 height:100%;
+
+
+	 /*centrado*/
+		display:flex;
+	 flex-direction:row;
+	 flex-wrap:wrap;
+	justify-content:center;
+	 align-items:center;
+
+		}
+#pestaña4 #fsleyenda .contenido .anexos ul #cel1{
+	width: 20%;
+	text-align: left;
+	display: flex;
+margin-top: -1%;
+		margin-right: 3%;
+
+//poner en esta medida para pc todo en 1
+}
+
+#pestaña4 #fsleyenda .contenido .anexos ul #cel2{
+	width: 19%;
+	text-align: left;
+	display: flex;
+margin-top: -1%;
+			margin-right: 3%;
+
+}
+
+#pestaña4 #fsleyenda .contenido .anexos ul #cel3{
+	width: 22.5%;
+	text-align: left;
+	display: flex;
+	margin-top: -1%;
+			margin-left: 0;
+
+}
+
+#pestaña4 #fsleyenda .contenido .anexos ul #cel4{
+	width: 18.7%;
+	text-align: left;
+	display: flex;
+margin-top: -1%;
+			margin-left: 3%;
+
+}
+
+#pestaña4 #fsleyenda .contenido .anexos ul #cel5{
+	width: 18%;
+	text-align: left;
+	display: flex;
+margin-top: 1%;
+			margin-left: 3%;
+
+}
+
+#pestaña4 #fsleyenda .contenido .anexos ul #cel6{
+	width: 24%;
+	text-align: left;
+	display: flex;
+margin-top: 1%;
+			margin-left: 3%;
+
+}
+
+#pestaña4 #fsleyenda .contenido .anexos ul #cel7{
+	width: 25%;
+	text-align: left;
+	display: flex;
+margin-top: 1%;
+			margin-left: 3%;
+
+}
+
+#pestaña4 #fsleyenda .contenido .anexos ul #cel8{
+	width: 33.5%;
+	text-align: left;
+	display: flex;
+    margin-top: 1%;
+	margin-left: 3%;
+
+}
+
+#pestaña4 #fsleyenda .contenido .anexos ul #cel9{
+	width: 27%;
+	text-align: left;
+	display: flex;
+	margin-top: 1%;
+    margin-left: 3%;
+
+}
+
+#pestaña4 #fsleyenda .contenido .anexos ul #cel10{
+	width: 25%;
+	text-align: left;
+	display: flex;
+	margin-top: 1%;
+			margin-left: 3%;
+
+}
+
+#pestaña4 #fsleyenda .contenido .anexos ul #cel11{
+	width: 16.5%;
+	text-align: left;
+	display: flex;
+	margin-top: 1%;
+			margin-left: 3%;
+
+}
+
+#lbanexo1{
+
+	width: 100%;
+	text-align:left;
+margin-left: 0;
+}
+
+#lbanexo2{
+
+	width: 100%;
+	text-align: left;
+margin-left: 0;
+
+}
+
+#lbanexo3{
+
+	width: 100%;
+	text-align: left;
+
+}
+
+#lbanexo4{
+
+	width: 100%;
+	text-align: left;
+margin-left: 0;
+
+}
+
+#lbanexo5{
+
+width: 100%;
+text-align: left;
+margin-left: 0;
+
+
+}
+
+#lbanexo6{
+
+width: 100%;
+text-align: left;
+margin-left: 0;
+
+}
+
+#lbanexo7{
+width: 100%;
+		text-align: left;
+margin-left: 0;
+
+
+}
+
+#lbanexo8{
+
+	width: 100%;
+	text-align: left;
+margin-left: 0;
+
+}
+
+#lbanexo9{
+
+	width: 100%;
+	text-align: left;
+margin-left: 0;
+
+}
+
+#lbanexo10{
+
+	width: 100%;
+	text-align: left;
+margin-left: 0;
+
+}
+
+#lbanexo11{
+
+	width: 100%;
+	text-align: left;
+margin-left: 0;
+
+}
+
+#fsleyenda h2{
+	background:#5C6B8C;
+	color:#F3F1F2;
+	font-size:1.5em;
+	margin-left:5px;
+	margin-bottom:10px;
+	padding:5px;
+	}
+
+	.dvbtnactualizar, .dvbtnguardar{
+		text-align:center;
+
+
+
+		}
+
+#btnactualizar, #btnguardar, #btnlimpiar, #btnenviar, #btncerrar, #btncerraract{
+		padding:3px 10px;
+		font-size:0.5em;
+		background-color:#2B313F;
+		color:#F3F1F2;
+		-webkit-transition: background-color .25s;
+		border:0px;
+						-webkit-border-radius:5px;
+		-webkit-box-shadow: 0px 1px 0px #0A0A0C;
+		-moz-border-radius:5px;
+		margin-top: 0;
+
+
+
+		}
+
+#btnactualizar:hover, #btnguardar:hover, #btnlimpiar:hover, #btnenviar:hover, #btncerrar:hover, #btncerraract:hover{
+
+			background-color: #5C6B8C;
+			color:#F3F1F2;
+			cursor:pointer;
+			-webkit-box-shadow: 0px 1px 0px #F3F1F2;
+			}
+
+#btnimprimir-verperfil{
+    padding:3px 10px;
+    font-size:1em;
+    background-color:#2B313F;
+    color:#F3F1F2;
+    -webkit-transition: background-color .25s;
+    border:0px;
+    -webkit-border-radius:5px;
+					-webkit-box-shadow: 0px 1px 0px #0A0A0C;
+					-moz-border-radius:5px;
+					margin-left: -138.5%;
+					margin-top: 14.7%;
+
+
+
+					}
+
+					#btnimprimir-verperfil:hover{
+
+								background-color: #5C6B8C;
+								color:#F3F1F2;
+								cursor:pointer;
+								-webkit-box-shadow: 0px 1px 0px #F3F1F2;
+								}
+
+
+p{
+	text-align:right;
+
+
+	}
+
+#item{
+position:absolute;
+text-align: left;
+top:-3px;
+left: 150px;
+width: 580px;
+font-size: 30px;
+
+}
+
+#item3{
+position: absolute;
+text-align: left;
+top:23px;
+left: 150px;
+width: 580px;
+font-size: 30px;
+
+}
+
+#item4{
+position: absolute;
+text-align: left;
+top:49px;
+left: 150px;
+width: 300px;
+font-size: 25px;
+}
+
+#item5{
+position: absolute;
+text-align: left;
+top:74px;
+left: 150px;
+width: 300px;
+font-size: 25px;
+
+}
+
+#item6{
+position: absolute;
+text-align: left;
+top:99px;
+left: 150px;
+width: 580px;
+font-size: 25px;
+
+}
+
+#item8{
+position: absolute;
+text-align: left;
+top:124px;
+left: 150px;
+width: 580px;
+font-size: 25px;
+}
+
+#item9{
+position: absolute;
+text-align: left;
+top:149px;
+left: 150px;
+width: 580px;
+font-size: 25px;
+}
+
+#item10{
+position: absolute;
+text-align: left;
+top:174px;
+left: 150px;
+width: 580px;
+font-size: 25px;
+}
+
+#item11{
+position: absolute;
+text-align: left;
+top:-1px;
+left: 170px;
+width: 580px;
+font-size: 18px;
+}
+
+#item12{
+position: absolute;
+text-align: left;
+top: 19px;
+left: 170px;
+width: 580px;
+font-size: 18px;
+}
+
+#item13{
+position: absolute;
+text-align: left;
+top: 39px;
+left: 170px;
+width: 580px;
+font-size: 18px;
+}
+
+#item14{
+position: absolute;
+text-align: left;
+top: 59px;
+left: 170px;
+width: 580px;
+font-size: 18px;
+}
+
+#item15{
+position: absolute;
+text-align: left;
+top: 78px;
+left: 170px;
+width: 580px;
+font-size: 18px;
+}
+
+#item16{
+position: absolute;
+text-align: left;
+top: 98px;
+left: 170px;
+width: 580px;
+font-size: 18px;
+}
+
+#item17{
+position: absolute;
+text-align: left;
+top: 118px;
+left: 170px;
+width: 580px;
+font-size: 18px;
+}
+
+#item18{
+position: absolute;
+text-align: left;
+top: 137px;
+left: 170px;
+width: 580px;
+font-size: 18px;
+}
+
+#item19{
+position: absolute;
+text-align: left;
+top: 157px;
+left: 170px;
+width: 580px;
+font-size: 18px;
+}
+
+#item20{
+position: absolute;
+text-align: left;
+top: -1px;
+left: 180px;
+width: 580px;
+font-size: 18px;
+}
+
+#item21{
+position: absolute;
+text-align: left;
+top: 26px;
+left: 180px;
+width: 580px;
+font-size: 18px;
+}
+
+#item22{
+position: absolute;
+text-align: left;
+top: 53px;
+left: 180px;
+width: 580px;
+font-size: 18px;
+}
+
+#item23{
+position: absolute;
+text-align: left;
+top: 80px;
+left: 180px;
+width: 580px;
+font-size: 18px;
+}
+
+#item24{
+position: absolute;
+text-align: left;
+top: 107px;
+left: 180px;
+width: 580px;
+font-size: 18px;
+}
+
+#item25{
+position: absolute;
+text-align: left;
+top: 134px;
+left: 180px;
+width: 580px;
+font-size: 18px;
+}
+
+#item26{
+position: absolute;
+text-align: left;
+top: -1px;
+left: 190px;
+width: 580px;
+font-size: 18px;
+}
+
+#item27{
+position: absolute;
+text-align: left;
+top: 26px;
+left: 190px;
+width: 580px;
+font-size: 18px;
+}
+
+#item28{
+position: absolute;
+text-align: left;
+top: 53px;
+left: 190px;
+width: 580px;
+font-size: 18px;
+}
+
+#item30{
+position: absolute;
+text-align: left;
+top: -1px;
+left: 550px;
+width: 580px;
+font-size: 18px;
+}
+
+#item31{
+position: absolute;
+text-align: left;
+top: 16px;
+left: 550px;
+width: 580px;
+font-size: 18px;
+}
+
+#item33{
+position: absolute;
+text-align: left;
+top: 50px;
+left: 550px;
+width: 580px;
+font-size: 18px;
+}
+
+#item34{
+position: absolute;
+text-align: left;
+top: 68px;
+left: 550px;
+width: 580px;
+font-size: 18px;
+}
+
+#item35{
+position: absolute;
+text-align: left;
+top: 86px;
+left: 550px;
+width: 580px;
+font-size: 18px;
+}
+
+#item36{
+position: absolute;
+text-align: left;
+top: 105px;
+left: 550px;
+width: 580px;
+font-size: 18px;
+}
+
+#item36{
+position: absolute;
+text-align: left;
+top: 105px;
+left: 550px;
+width: 580px;
+font-size: 18px;
+}
+
+#item37{
+position: absolute;
+text-align: left;
+top: 122px;
+left: 550px;
+width: 580px;
+font-size: 18px;
+}
+
+#item38{
+position: absolute;
+text-align: left;
+top: 140px;
+left: 550px;
+width: 580px;
+font-size: 18px;
+}
+
+#item38{
+position: absolute;
+text-align: left;
+top: 140px;
+left: 550px;
+width: 580px;
+font-size: 18px;
+}
+
+#item39{
+position: absolute;
+text-align: left;
+top: 158px;
+left: 550px;
+width: 580px;
+font-size: 18px;
+}
+
+
+.dvfondobtn{
+	margin-top: 10px;
+	width:250px;
+	height:37px;
+	background:#2B313F;
+	color:#F3F1F2;
+	padding:2px;
+	position:relative;
+	text-align:center;
+	margin-left:10px;
+    float:left;
+}
+
+.input-label{
+	color:#F3F1F2 ;
+	font-size:20px;
+	transition:0.3s;
+	}
+
+.dvfondobtn:hover{
+	background:#5C6B8C;
+	cursor:pointer;
+
+	}
+
+
+.nomarchivo{
+		font-size:12px;
+
+
+}
+
+/*formulario bloquear*/
+
+#slmonitor{
+	width: 300px;
+}
+
+#sin-fotcedula {
+
+  display: none;
+}
+
+#sin-fotcedula + label {//cuando no hay anexos
+	display: table;
+	margin-right: 4%;
+		padding-right: 0;
+	color: black;
+
+width: 60%;
+text-align: right;
+}
+
+#sin-fotEPS {
+
+  display: none;
+}
+
+#sin-fotEPS + label {//cuando no hay anexos
+	display: table;
+		padding-left: 0;
+	color: black;
+
+margin-right: 6%;
+width: 65%;
+text-align: right;
+}
+
+#sin-fotpensiones {
+
+  display: none;
+}
+
+#sin-fotpensiones + label {//cuando no hay anexos
+	display: table;
+		padding-left: 0;
+	color: black;
+
+	margin-right: 1%;
+width: 46%;
+text-align: right;
+}
+
+#sin-fotARL {
+
+  display: none;
+}
+
+#sin-fotARL + label {//cuando no hay anexos
+	display: table;
+		padding-left: 0;
+	color: black;
+
+	margin-right: 2%;
+width: 60%;
+text-align: right;
+}
+
+#sin-fotRUT {
+
+  display: none;
+}
+
+#sin-fotRUT + label {//cuando no hay anexos
+display: table;
+padding-left: 0;
+color: black;
+
+margin-right: 3%;
+width: 70%;
+text-align: right;
+}
+
+#sin-fotcontraloria {
+
+  display: none;
+}
+
+#sin-fotcontraloria + label {//cuando no hay anexos
+display: table;
+padding-left: 0;
+color: black;
+
+margin-right: 4%;
+width: 44%;
+text-align: right;
+}
+
+#sin-fotprocuraduria {
+
+  display: none;
+}
+
+#sin-fotprocuraduria + label {//cuando no hay anexos
+display: table;
+padding-left: 0;
+color: black;
+
+margin-right: 3%;
+width: 44%;
+text-align: right;
+}
+
+#sin-fotAJ {
+
+  display: none;
+}
+
+#sin-fotAJ + label {//cuando no hay anexos
+display: table;
+padding-left: 0;
+color: black;
+
+margin-right: 2%;
+width: 27%;
+text-align: right;
+}
+
+#sin-fotCB {
+
+  display: none;
+}
+
+#sin-fotCB + label {//cuando no hay anexos
+display: table;
+padding-left: 0;
+color: black;
+
+margin-right: 2%;
+width: 37%;
+text-align: right;
+}
+
+#sin-fotLM {
+
+  display: none;
+}
+
+#sin-fotLM + label {//cuando no hay anexos
+display: table;
+padding-left: 0;
+color: black;
+
+margin-right: 4%;
+width: 40%;
+text-align: right;
+}
+
+#sin-fotHV {
+
+  display: none;
+}
+
+#sin-fotHV + label {//cuando no hay anexos
+display: table;
+padding-left: 0;
+color: black;
+
+margin-right: 2%;
+width: 80%;
+text-align: right;
+}
+
+
+//ventanas modales
+
+// MODAL fotocopia cedula
+
+#modal-fotcedula {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#modal-fotcedula h3 {
+margin-top:1%;
+text-align: center;
+
+}
+
+#modal-fotcedula p { // se modifica imagen
+  width: 60%;
+  height: 40%;
+  position: absolute;
+  top: -60vh;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#modal-fotcedula p img{
+	margin-top: 5%;
+	width:30%;
+	height: 200%;
+}
+
+#modal-fotcedula {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#mostrar-fotcedula {
+  display: none;
+}
+#mostrar-fotcedula + label {
+display: table;
+margin-right: 4%;
+background: #2B313F ;
+color: #F3F1F2 ;
+cursor: pointer;
+width: 10%;
+text-align: right;
+padding: 0 2%;
+}
+
+#mostrar-fotcedula + label:hover {
+	background: #5C6B8C;
+}
+
+#mostrar-fotcedula:checked ~ #modal-fotcedula {
+  top: 0;
+}
+
+#cerrar-fotcedula {
+  display: none;
+}
+#cerrar-fotcedula + label {
+  position: absolute;
+  top: 0.92em;
+  right: 1.2em;
+  z-index: 100;
+  color: #F3F1F2 ;
+  font-weight: bold;
+  cursor: pointer;
+  background: #2B313F ;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all .5s;
+
+}
+
+#cerrar-fotcedula + label:hover{
+
+background: #5C6B8C  ;
+}
+
+#cerrar-fotcedula:checked ~ #modal-fotcedula {
+  top: -100vh;
+}
+
+#cerrar-fotcedula + label {
+  display: none;
+}
+#mostrar-fotcedula:checked ~ #cerrar-fotcedula + label {
+  display: block;
+}
+#cerrar-fotcedula:checked + label {
+  display: none;
+}
+
+// MODAL fotocopia EPS
+
+#modal-fotEPS {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#modal-fotEPS h3 {
+margin-top:1%;
+text-align: center;
+
+}
+
+#modal-fotEPS p { // se modifica imagen
+  width: 60%;
+  height: 40%;
+  position: absolute;
+  top: -60vh;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#modal-fotEPS p img{
+	margin-top: 5%;
+	width:30%;
+	height: 200%;
+}
+
+
+
+#modal-fotEPS {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#mostrar-fotEPS {
+  display: none;
+}
+
+#mostrar-fotEPS + label {
+	display: table;
+	margin-right: 4%;
+	background: #2B313F ;
+		color: #F3F1F2 ;
+ cursor: pointer;
+width: 30%;
+text-align: right;
+padding: 0 2%;
+}
+
+#mostrar-fotEPS + label:hover {
+background: #5C6B8C  ;
+}
+
+#mostrar-fotEPS:checked ~ #modal-fotEPS {
+  top: 0;
+}
+
+#cerrar-fotEPS {
+  display: none;
+}
+#cerrar-fotEPS + label {
+  position: absolute;
+ top: 0.92em;
+  right: 1.2em;
+  z-index: 100;
+  color: #F3F1F2 ;
+  font-weight: bold;
+  cursor: pointer;
+  background: #2B313F ;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all .5s;
+}
+
+#cerrar-fotEPS + label:hover{
+
+background: #5C6B8C  ;
+}
+
+#cerrar-fotEPS:checked ~ #modal-fotEPS {
+  top: -100vh;
+}
+
+#cerrar-fotEPS + label {
+  display: none;
+}
+#mostrar-fotEPS:checked ~ #cerrar-fotEPS + label {
+  display: block;
+}
+#cerrar-fotEPS:checked + label {
+  display: none;
+}
+
+// MODAL fotocopia pensiones
+
+#modal-fotpensiones {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#modal-fotpensiones h3 {
+margin-top:1%;
+text-align: center;
+
+}
+
+#modal-fotpensiones p { // se modifica imagen
+  width: 60%;
+  height: 40%;
+  position: absolute;
+  top: -60vh;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#modal-fotpensiones p img{
+	margin-top: 5%;
+	width:30%;
+	height: 200%;
+}
+
+
+
+#modal-fotpensiones {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#mostrar-fotpensiones {
+  display: none;
+}
+
+#mostrar-fotpensiones + label {
+	display: table;
+	margin-right: 2%;
+
+	background: #2B313F ;
+		color: #F3F1F2 ;
+ cursor: pointer;
+width: 10%;
+text-align: right;
+padding: 0 2%;
+}
+
+#mostrar-fotpensiones + label:hover {
+background: #5C6B8C  ;
+}
+
+#mostrar-fotpensiones:checked ~ #modal-fotpensiones {
+  top: 0;
+}
+
+#cerrar-fotpensiones {
+  display: none;
+}
+#cerrar-fotpensiones + label {
+  position: absolute;
+  top: 0.92em;
+  right: 1.2em;
+  z-index: 100;
+  color: #F3F1F2 ;
+  font-weight: bold;
+  cursor: pointer;
+  background: #2B313F ;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all .5s;
+}
+
+#cerrar-fotpensiones + label:hover{
+
+background: #5C6B8C  ;
+}
+
+#cerrar-fotpensiones:checked ~ #modal-fotpensiones {
+  top: -100vh;
+}
+
+#cerrar-fotpensiones + label {
+  display: none;
+}
+#mostrar-fotpensiones:checked ~ #cerrar-fotpensiones + label {
+  display: block;
+}
+#cerrar-fotpensiones:checked + label {
+  display: none;
+}
+
+// MODAL Certificado ARL
+
+#modal-fotARL {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#modal-fotARL h3 {
+margin-top:1%;
+text-align: center;
+
+}
+
+#modal-fotARL p { // se modifica imagen
+  width: 60%;
+  height: 40%;
+  position: absolute;
+  top: -60vh;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#modal-fotARL p img{
+	margin-top: 5%;
+	width:30%;
+	height: 200%;
+}
+
+
+
+#modal-fotARL {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#mostrar-fotARL {
+  display: none;
+}
+
+#mostrar-fotARL + label {
+	display: table;
+	margin-right: 2%;
+	background: #2B313F ;
+		color: #F3F1F2 ;
+ cursor: pointer;
+width: 10%;
+text-align: right;
+padding: 0 2%;
+}
+
+#mostrar-fotARL + label:hover {
+background: #5C6B8C  ;
+}
+
+#mostrar-fotARL:checked ~ #modal-fotARL {
+  top: 0;
+}
+
+#cerrar-fotARL {
+  display: none;
+}
+#cerrar-fotARL + label {
+  position: absolute;
+  top: 0.92em;
+  right: 1.2em;
+  z-index: 100;
+  color: #F3F1F2 ;
+  font-weight: bold;
+  cursor: pointer;
+  background: #2B313F ;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all .5s;
+}
+
+#cerrar-fotARL + label:hover{
+
+background: #5C6B8C  ;
+}
+
+#cerrar-fotARL:checked ~ #modal-fotARL {
+  top: -100vh;
+}
+
+#cerrar-fotARL + label {
+  display: none;
+}
+#mostrar-fotARL:checked ~ #cerrar-fotARL + label {
+  display: block;
+}
+#cerrar-fotARL:checked + label {
+  display: none;
+}
+
+// MODAL Certificado RUT
+
+#modal-fotRUT {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#modal-fotRUT h3 {
+margin-top:1%;
+text-align: center;
+
+}
+
+#modal-fotRUT p { // se modifica imagen
+  width: 60%;
+  height: 40%;
+  position: absolute;
+  top: -60vh;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#modal-fotRUT p img{
+	margin-top: 5%;
+	width:30%;
+	height: 200%;
+}
+
+
+
+#modal-fotRUT {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#mostrar-fotRUT {
+  display: none;
+}
+
+#mostrar-fotRUT + label {
+	display: table;
+	margin-right: 2%;
+	background: #2B313F ;
+		color: #F3F1F2 ;
+ cursor: pointer;
+width: 10%;
+text-align: right;
+padding: 0 3%;
+
+
+}
+
+#mostrar-fotRUT + label:hover {
+background: #5C6B8C  ;
+}
+
+#mostrar-fotRUT:checked ~ #modal-fotRUT {
+  top: 0;
+}
+
+#cerrar-fotRUT {
+  display: none;
+}
+#cerrar-fotRUT + label {
+  position: absolute;
+  top: 0.92em;
+  right: 1.2em;
+  z-index: 100;
+  color: #F3F1F2 ;
+  font-weight: bold;
+  cursor: pointer;
+  background: #2B313F ;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all .5s;
+}
+
+#cerrar-fotRUT + label:hover{
+
+background: #5C6B8C  ;
+}
+
+#cerrar-fotRUT:checked ~ #modal-fotRUT {
+  top: -100vh;
+}
+
+#cerrar-fotRUT + label {
+  display: none;
+}
+#mostrar-fotRUT:checked ~ #cerrar-fotRUT + label {
+  display: block;
+}
+#cerrar-fotRUT:checked + label {
+  display: none;
+}
+
+// MODAL Certificado contraloria
+
+#modal-fotcontraloria {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#modal-fotcontraloria h3 {
+margin-top:1%;
+text-align: center;
+
+}
+
+#modal-fotcontraloria p { // se modifica imagen
+  width: 60%;
+  height: 40%;
+  position: absolute;
+  top: -60vh;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#modal-fotcontraloria p img{
+	margin-top: 5%;
+	width:30%;
+	height: 200%;
+}
+
+
+
+#modal-fotcontraloria {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#mostrar-fotcontraloria {
+  display: none;
+}
+
+#mostrar-fotcontraloria + label {
+	display: table;
+	margin-right: 2%;
+	background: #2B313F ;
+		color: #F3F1F2 ;
+ cursor: pointer;
+width: 10%;
+text-align: right;
+padding: 0 2%;
+}
+
+#mostrar-fotcontraloria + label:hover {
+background: #5C6B8C  ;
+}
+
+#mostrar-fotcontraloria:checked ~ #modal-fotcontraloria {
+  top: 0;
+}
+
+#cerrar-fotcontraloria {
+  display: none;
+}
+#cerrar-fotcontraloria + label {
+  position: absolute;
+  top: 0.92em;
+  right: 1.2em;
+  z-index: 100;
+  color: #F3F1F2 ;
+  font-weight: bold;
+  cursor: pointer;
+  background: #2B313F ;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all .5s;
+}
+
+#cerrar-fotcontraloria + label:hover{
+
+background: #5C6B8C  ;
+}
+
+#cerrar-fotcontraloria:checked ~ #modal-fotcontraloria {
+  top: -100vh;
+}
+
+#cerrar-fotcontraloria + label {
+  display: none;
+}
+#mostrar-fotcontraloria:checked ~ #cerrar-fotcontraloria + label {
+  display: block;
+}
+#cerrar-fotcontraloria:checked + label {
+  display: none;
+}
+
+// MODAL Certificado procuraduria
+
+#modal-fotprocuraduria {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#modal-fotprocuraduria h3 {
+margin-top:1%;
+text-align: center;
+
+}
+
+#modal-fotprocuraduria p { // se modifica imagen
+  width: 60%;
+  height: 40%;
+  position: absolute;
+  top: -60vh;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#modal-fotprocuraduria p img{
+	margin-top: 5%;
+	width:30%;
+	height: 200%;
+}
+
+
+
+#modal-fotprocuraduria {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#mostrar-fotprocuraduria {
+  display: none;
+}
+
+#mostrar-fotprocuraduria + label {
+	display: table;
+	margin-right: 2%;
+	background: #2B313F ;
+		color: #F3F1F2 ;
+ cursor: pointer;
+width: 10%;
+text-align: right;
+padding: 0 2%;
+
+
+}
+
+#mostrar-fotprocuraduria + label:hover {
+background: #5C6B8C  ;
+}
+
+#mostrar-fotprocuraduria:checked ~ #modal-fotprocuraduria {
+  top: 0;
+}
+
+#cerrar-fotprocuraduria {
+  display: none;
+}
+#cerrar-fotprocuraduria + label {
+  position: absolute;
+  top: 0.92em;
+  right: 1.2em;
+  z-index: 100;
+  color: #F3F1F2 ;
+  font-weight: bold;
+  cursor: pointer;
+  background: #2B313F ;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all .5s;
+}
+
+#cerrar-fotprocuraduria + label:hover{
+
+background: #5C6B8C  ;
+}
+
+#cerrar-fotprocuraduria:checked ~ #modal-fotprocuraduria {
+  top: -100vh;
+}
+
+#cerrar-fotprocuraduria + label {
+  display: none;
+}
+#mostrar-fotprocuraduria:checked ~ #cerrar-fotprocuraduria + label {
+  display: block;
+}
+#cerrar-fotprocuraduria:checked + label {
+  display: none;
+}
+
+// MODAL Certificado AJ
+
+#modal-fotAJ {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#modal-fotAJ h3 {
+margin-top:1%;
+text-align: center;
+
+}
+
+#modal-fotAJ p { // se modifica imagen
+  width: 60%;
+  height: 40%;
+  position: absolute;
+  top: -60vh;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#modal-fotAJ p img{
+	margin-top: 5%;
+	width:30%;
+	height: 200%;
+}
+
+
+
+#modal-fotAJ {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#mostrar-fotAJ {
+  display: none;
+}
+
+#mostrar-fotAJ + label {
+	display: table;
+	margin-right: 2%;
+	background: #2B313F ;
+		color: #F3F1F2 ;
+ cursor: pointer;
+width: 20%;
+text-align: right;
+padding: 0 2%;
+}
+
+#mostrar-fotAJ + label:hover {
+background: #5C6B8C  ;
+}
+
+#mostrar-fotAJ:checked ~ #modal-fotAJ {
+  top: 0;
+}
+
+#cerrar-fotAJ {
+  display: none;
+}
+#cerrar-fotAJ + label {
+  position: absolute;
+   top: 0.92em;
+  right: 1.2em;
+  z-index: 100;
+  color: #F3F1F2 ;
+  font-weight: bold;
+  cursor: pointer;
+  background: #2B313F ;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all .5s;
+}
+
+#cerrar-fotAJ + label:hover{
+
+background: #5C6B8C  ;
+}
+
+#cerrar-fotAJ:checked ~ #modal-fotAJ {
+  top: -100vh;
+}
+
+#cerrar-fotAJ + label {
+  display: none;
+}
+#mostrar-fotAJ:checked ~ #cerrar-fotAJ + label {
+  display: block;
+}
+#cerrar-fotAJ:checked + label {
+  display: none;
+}
+
+// MODAL Certificado CB
+
+#modal-fotCB {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#modal-fotCB h3 {
+margin-top:1%;
+text-align: center;
+
+}
+
+#modal-fotCB p { // se modifica imagen
+  width: 60%;
+  height: 40%;
+  position: absolute;
+  top: -60vh;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#modal-fotCB p img{
+	margin-top: 5%;
+	width:30%;
+	height: 200%;
+}
+
+
+
+#modal-fotCB {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#mostrar-fotCB {
+  display: none;
+}
+
+#mostrar-fotCB + label {
+	display: table;
+	margin-right: 2%;
+	background: #2B313F ;
+		color: #F3F1F2 ;
+ cursor: pointer;
+width: 10%;
+text-align: right;
+padding: 0 2%;
+}
+
+#mostrar-fotCB + label:hover {
+background: #5C6B8C  ;
+}
+
+#mostrar-fotCB:checked ~ #modal-fotCB {
+  top: 0;
+}
+
+#cerrar-fotCB {
+  display: none;
+}
+#cerrar-fotCB + label {
+  position: absolute;
+  top: 0.92em;
+  right: 1.2em;
+  z-index: 100;
+  color: #F3F1F2 ;
+  font-weight: bold;
+  cursor: pointer;
+  background: #2B313F ;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all .5s;
+}
+
+#cerrar-fotCB + label:hover{
+
+background: #5C6B8C  ;
+}
+
+#cerrar-fotCB:checked ~ #modal-fotCB {
+  top: -100vh;
+}
+
+#cerrar-fotCB + label {
+  display: none;
+}
+#mostrar-fotCB:checked ~ #cerrar-fotCB + label {
+  display: block;
+}
+#cerrar-fotCB:checked + label {
+  display: none;
+}
+
+// MODAL Certificado LM
+
+#modal-fotLM {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#modal-fotLM h3 {
+margin-top:1%;
+text-align: center;
+
+}
+
+#modal-fotLM p { // se modifica imagen
+  width: 60%;
+  height: 40%;
+  position: absolute;
+  top: -60vh;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#modal-fotLM p img{
+	margin-top: 5%;
+	width:30%;
+	height: 200%;
+}
+
+
+
+#modal-fotLM {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#mostrar-fotLM {
+  display: none;
+}
+
+#mostrar-fotLM + label {
+	display: table;
+	margin-right: 2%;
+	background: #2B313F ;
+		color: #F3F1F2 ;
+ cursor: pointer;
+width: 10%;
+text-align: right;
+padding: 0 2%;
+}
+
+#mostrar-fotLM + label:hover {
+background: #5C6B8C  ;
+}
+
+#mostrar-fotLM:checked ~ #modal-fotLM {
+  top: 0;
+}
+
+#cerrar-fotLM {
+  display: none;
+}
+#cerrar-fotLM + label {
+  position: absolute;
+  top: 0.92em;
+  right: 1.2em;
+  z-index: 100;
+  color: #F3F1F2 ;
+  font-weight: bold;
+  cursor: pointer;
+  background: #2B313F ;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all .5s;
+}
+
+#cerrar-fotLM + label:hover{
+
+background: #5C6B8C  ;
+}
+
+#cerrar-fotLM:checked ~ #modal-fotLM {
+  top: -100vh;
+}
+
+#cerrar-fotLM + label {
+  display: none;
+}
+#mostrar-fotLM:checked ~ #cerrar-fotLM + label {
+  display: block;
+}
+#cerrar-fotLM:checked + label {
+  display: none;
+}
+
+// MODAL Certificado HV
+
+#modal-fotHV {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#modal-fotHV h3 {
+margin-top:1%;
+text-align: center;
+
+}
+
+#modal-fotHV p { // se modifica imagen
+  width: 60%;
+  height: 40%;
+  position: absolute;
+  top: -60vh;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#modal-fotHV p img{
+	margin-top: 5%;
+	width:30%;
+	height: 200%;
+}
+
+
+
+#modal-fotHV {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#mostrar-fotHV {
+  display: none;
+}
+
+#mostrar-fotHV + label {
+	display: table;
+	margin-right: 2%;
+	background: #2B313F ;
+		color: #F3F1F2 ;
+ cursor: pointer;
+width: 10%;
+text-align: right;
+padding: 0 2%;
+}
+
+#mostrar-fotHV + label:hover {
+background: #5C6B8C  ;
+}
+
+#mostrar-fotHV:checked ~ #modal-fotHV {
+  top: 0;
+}
+
+#cerrar-fotHV {
+  display: none;
+}
+#cerrar-fotHV + label {
+  position: absolute;
+ top: 0.92em;
+  right: 1.2em;
+  z-index: 100;
+  color: #F3F1F2 ;
+  font-weight: bold;
+  cursor: pointer;
+  background: #2B313F ;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all .5s;
+}
+
+#cerrar-fotHV + label:hover{
+
+background: #5C6B8C  ;
+}
+
+#cerrar-fotHV:checked ~ #modal-fotHV {
+  top: -100vh;
+}
+
+#cerrar-fotHV + label {
+  display: none;
+}
+#mostrar-fotHV:checked ~ #cerrar-fotHV + label {
+  display: block;
+}
+#cerrar-fotHV:checked + label {
+  display: none;
+}
